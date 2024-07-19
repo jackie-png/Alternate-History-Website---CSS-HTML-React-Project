@@ -1,0 +1,97 @@
+#timeline_Header{
+    background: #CE1212;
+    font-size: 3.5vh;
+}
+
+#description_underline{
+    width: 10%;
+}
+
+.link_container{
+    background: rgba(30, 30, 30);
+    color: black;
+    width: 85vw;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh;
+    font-size: 2vh;
+    box-shadow: 0px 15px 5px rgba(0, 0, 0, 0.371);
+}
+
+.link_Description{
+    background-color: rgb(204, 204, 204);
+    width: 40vw;
+    height: 40vh;
+    padding:2vw
+
+}
+
+.description_line{
+    background-color:#CE1212;
+    width:100%;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    height: 1vh;
+    color: #ce121200;
+    border-radius: 10px;
+
+}
+
+.link_img{
+    background-image: url('./treatyImages/KRworld1951V3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    height: 55vh;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.411), 0px -10px 5px rgba(0, 0, 0, 0.411);
+}
+
+.link_h2{
+    margin: 1vw;
+    font-size: 2.1vh;
+}
+
+.link {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #CE1212;
+    color: white;
+    border: #CE1212;
+    border-radius: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.homepage_description_link{
+    font-size: 1vw;
+    cursor: pointer;
+    margin-left: 1vw;
+    background: rgba(255, 255, 255, 0);    
+}
+
+.footer{
+    text-align: center;
+    height: 15vh;
+    background: #a61313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+.disclaimer{
+    color: white;
+    text-align: left;
+    font-size: 2vh;
+}

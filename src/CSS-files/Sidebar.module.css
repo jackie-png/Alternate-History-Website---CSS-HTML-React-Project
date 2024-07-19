@@ -1,0 +1,48 @@
+.page_sidebar{
+    position: fixed;
+    scroll-behavior: smooth;
+    background-color:rgb(84, 84, 84);
+    width: 15vw;
+    height: calc(100vh - 11vh); /* Adjust height to ensure scrollbar visibility */
+    top: 11.5vh;
+    color: white;
+    overflow-y: scroll;
+    box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.196);
+}
+
+
+.sidebar_element:hover > #sidebar_underline{
+    width: 100%;
+}
+
+#sidebar_underline{
+    margin:auto;
+    width: 0%
+}
+
+.sidebar_title{
+    text-align: center;
+    font-size: 3vh; 
+    margin-bottom: 3vh;
+}
+
+
+.sidebar_h3{
+    text-align: left;
+    font-size: 2vh;
+    margin: 0;
+}
+
+.sidebar_element{
+    cursor: pointer;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0;
+    padding: 2vh 1vw 3vh 1vw ;
+    height: 6.5vh;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.196), 0px -5px 5px rgba(0, 0, 0, 0.196);
+}
+
+#odd_element_index{
+    background: rgb(112, 111, 111);
+}

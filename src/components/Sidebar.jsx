@@ -1,3 +1,6 @@
+import sidebarStyle from "../CSS-files/Sidebar.module.css"
+import headerStyle from "../CSS-files/Header.module.css"
+
 
 function Sidebar(props){
 
@@ -8,22 +11,22 @@ function Sidebar(props){
     }
 
     return(            
-    <div className="page-sidebar">
-        <h3 className="sidebar-title">Major Events</h3>
+    <div className={sidebarStyle.page_sidebar}>
+        <h3 className={sidebarStyle.sidebar_title}>Major Events</h3>
         {props.menu.map((element, index) => (
             index % 2 != 0 ? (
-                <div className="sidebar-element" key={index} onClick={() => eventScroll(element)}>
-                    <h3 className="sidebar-h3">
+                <div className={sidebarStyle.sidebar_element} key={index} onClick={() => eventScroll(element)}>
+                    <h3 className={sidebarStyle.sidebar_h3}>
                         {element.name}
                     </h3>        
-                    <div id="sidebar-underline" className="underline"></div>        
+                    <div id={sidebarStyle.sidebar_underline} className={headerStyle.underline}></div>        
                 </div>
             ) : (
-                <div id="odd-element-index" className="sidebar-element" key={index} onClick={() => eventScroll(element)}>
-                    <h3 className="sidebar-h3">
+                <div id={sidebarStyle.odd_element_index} className={sidebarStyle.sidebar_element} key={index} onClick={() => eventScroll(element)}>
+                    <h3 className={sidebarStyle.sidebar_h3}>
                         {element.name}
                     </h3>           
-                    <div id="sidebar-underline" className="underline"></div>             
+                    <div id={sidebarStyle.sidebar_underline} className={headerStyle.underline}></div>             
                 </div>
             )
             ))

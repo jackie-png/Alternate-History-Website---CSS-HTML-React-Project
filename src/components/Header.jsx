@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import headerStyle from "../CSS-files/Header.module.css"
 
 export default function Header(){
     let navigate = useNavigate();
@@ -42,27 +43,27 @@ export default function Header(){
         }
     }
     return (
-        <div id = "page-header" className="homeHeader">
-                <div id = "page-header-h1" className="header-h1-Container" onClick={() => handleClick(1)}>
-                    <h1 className="header-h1">Rise of the German Hegemony</h1>
+        <div id = {headerStyle.page_header} className={headerStyle.home_Header}>
+                <div id = {headerStyle.page_header_h1} className={headerStyle.header_h1_Container} onClick={() => handleClick(1)}>
+                    <h1 className={headerStyle.header_h1}>Rise of the German Hegemony</h1>
                 </div>
-                <div className="header-h2-Container">
-                    <div className="header-h2-link" onClick={() => handleClick(3)}>
-                        <h2 className="header-h2">1940-1944</h2>
-                        <div id= "header-underline" className="underline"></div>
+                <div className={headerStyle.header_h2_Container}>
+                    <div className={headerStyle.header_h2_link} onClick={() => handleClick(3)}>
+                        <h2 className={headerStyle.header_h2}>1940-1944</h2>
+                        <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>
                     </div>
-                    <div className="header-h2-link" onClick={() => handleClick(4)}>
-                        <h2 className="header-h2">1944-1948</h2>
-                        <div id= "header-underline" className="underline"></div>
+                    <div className={headerStyle.header_h2_link} onClick={() => handleClick(4)}>
+                        <h2 className={headerStyle.header_h2}>1944-1948</h2>
+                        <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>
                     </div>
-                    <div className="header-h2-link" onClick={() => handleClick(5)}>
+                    <div className={headerStyle.header_h2_link} onClick={() => handleClick(5)}>
 
-                        <h2 className="header-h2">1948-1951</h2>
-                        <div id= "header-underline" className="underline"></div>
+                        <h2 className={headerStyle.header_h2}>1948-1951</h2>
+                        <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>
                     </div>
-                    <div className="header-h2-link" onClick={() => handleClick(6)}>
-                        <h2 className="header-h2">Peace Treaties</h2>   
-                        <div id= "header-underline" className="underline"></div>
+                    <div className={headerStyle.header_h2_link} onClick={() => handleClick(6)}>
+                        <h2 className={headerStyle.header_h2}>Peace Treaties</h2>   
+                        <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>
                     </div>                 
                 </div>
             </div>            
