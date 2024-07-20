@@ -122,7 +122,6 @@ export default function Homepage(){
                             <h2 onClick={()=>handleClick(3)}>
                                 Click to View Page
                             </h2>
-                            <div id={homepageStyle.description_underline} className={headerStyle.underline}></div>                           
                         </div>
 
                     </div>   
@@ -147,7 +146,6 @@ export default function Homepage(){
                             <h2 onClick={()=>handleClick(4)}>
                                 Click to View Page
                             </h2>     
-                            <div id={homepageStyle.description_underline} className={headerStyle.underline}></div>                                                  
                         </div>
                     </div>   
                     <div className={homepageStyle.description_line}>
@@ -177,7 +175,6 @@ export default function Homepage(){
                             <h2 onClick={()=>handleClick(5)}>
                                 Click to View Page
                             </h2>
-                            <div id={homepageStyle.description_underline} className={headerStyle.underline}></div>                                                       
                         </div>
                     </div>   
                     <div className={homepageStyle.description_line}>
@@ -202,7 +199,6 @@ export default function Homepage(){
                             <h2 onClick={()=>handleClick(6)}>
                                 Click to View Page
                             </h2>
-                            <div id={homepageStyle.description_underline} className={headerStyle.underline}></div>                                                       
                         </div>
                     </div>   
                     <div className={homepageStyle.description_line}>

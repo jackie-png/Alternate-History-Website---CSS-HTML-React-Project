@@ -25,7 +25,6 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    font-size: 2vh;
     color: white;
     box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.196);
 }
@@ -34,6 +33,7 @@
 .header_h1{
     margin-left: 2vw;
     margin-right: auto;
+    font-size: 2rem;
 }
 
 .header_h1_Container{

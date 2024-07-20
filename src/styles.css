@@ -3,10 +3,14 @@
     padding: 0;
 }
 
+html{
+    font-size: 1rem;
+}
+
 body{
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(215, 210, 193);
 }
 
 @font-face {
@@ -62,6 +66,7 @@ p{
 
 ::-webkit-scrollbar{
     width: 15px;
+    background-color: black;
 }
 
 ::-webkit-scrollbar-thumb{

@@ -57,7 +57,7 @@ export default function Treaties(){
                 <div id="treaty-1" className={articleStyle.year_header}>
                     <h1>Treaty of Paris, 2nd June 1943</h1>
                 </div>
-                <h2 className={articleStyle.treaty_header}>The Fate of Iberia</h2>
+                <h2 className={articleStyle.event_header}>The Fate of Iberia</h2>
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
                         <p id={articleStyle.treaty_p}>The Iberian Peninsula although initially allies of the Entante, were now under the occupation of the Reichspakt after being under Internationale occupation since 1941. In order to compromise with the Reichspakt, the Entante abandoned the Carlist Kingdom of Spain to the Germans in order to secure Portugal for the Entante.</p>
@@ -67,7 +67,7 @@ export default function Treaties(){
                     <div id="TP-Spain" className="image-Container"></div>
                 </div>
 
-                <h2 id="treaty-event" className={articleStyle.treaty_header}>The Commune of France</h2>
+                <h2 id="treaty-event" className={articleStyle.event_header}>The Commune of France</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
@@ -78,7 +78,7 @@ export default function Treaties(){
                     <div id="TP-France" className="image-Container"></div>
                 </div>
 
-                <h2 className={articleStyle.treaty_header}>Socialist Norway</h2>
+                <h2 className={articleStyle.event_header}>Socialist Norway</h2>
 
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
@@ -88,7 +88,7 @@ export default function Treaties(){
                     <div id="TP-Norway" className="image-Container" ></div>
                 </div>
 
-                <h2 className={articleStyle.treaty_header}>Socialist Republic of Italy</h2>
+                <h2 className={articleStyle.event_header}>Socialist Republic of Italy</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
@@ -128,7 +128,7 @@ export default function Treaties(){
                     <h1>Treaty of Moscow</h1>
                 </div>
                 
-                <h2 className={articleStyle.treaty_header}>Western Russia</h2>
+                <h2 className={articleStyle.event_header}>Western Russia</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
@@ -146,7 +146,7 @@ export default function Treaties(){
                 </div>
 
 
-                <h2 className={articleStyle.treaty_header}>Central Asia and Siberia</h2>
+                <h2 className={articleStyle.event_header}>Central Asia and Siberia</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
 
@@ -158,7 +158,7 @@ export default function Treaties(){
 
                 </div>
 
-                <h2 className={articleStyle.treaty_header}>The Balkan Nations</h2>
+                <h2 className={articleStyle.event_header}>The Balkan Nations</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
@@ -221,7 +221,7 @@ export default function Treaties(){
                 <div id="treaty-9" className={articleStyle.year_header}>
                     <h1>Treaty of Ottawa</h1>
                 </div>
-                <h2 className={articleStyle.treaty_header}>The Kingdom of Canada and Portugal</h2>
+                <h2 className={articleStyle.event_header}>The Kingdom of Canada and Portugal</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
@@ -229,7 +229,7 @@ export default function Treaties(){
                     </div>
                     <div id="TE-England" className="image-Container" ></div>
                 </div>
-                <h2 className={articleStyle.treaty_header}>The British African Colonies</h2>
+                <h2 className={articleStyle.event_header}>The British African Colonies</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
@@ -237,7 +237,7 @@ export default function Treaties(){
                     </div>
                     <div id="TE-England" className="image-Container" ></div>
                 </div>
-                <h2 className={articleStyle.treaty_header}>Australasia and the Pacific</h2>
+                <h2 className={articleStyle.event_header}>Australasia and the Pacific</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
@@ -245,7 +245,7 @@ export default function Treaties(){
                     </div>
                     <div id="TE-England" className="image-Container" ></div>
                 </div>
-                <h2 className={articleStyle.treaty_header}>The United States of America</h2>
+                <h2 className={articleStyle.event_header}>The United States of America</h2>
 
                 <div id={articleStyle.paragraph_with_image} className={articleStyle.paragraph_container}>
                     <div className={articleStyle.paragraph_inner_container}>
