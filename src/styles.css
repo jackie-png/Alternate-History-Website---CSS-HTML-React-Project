@@ -5,10 +5,10 @@
 
 html{
     font-size: 1rem;
+    width: 100%;
 }
 
 body{
-    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: rgb(215, 210, 193);
 }
@@ -64,29 +64,17 @@ p{
 }
 
 
-::-webkit-scrollbar{
-    width: 15px;
-    background-color: black;
-}
-
-::-webkit-scrollbar-thumb{
-    background:#CE1212;
-    border-radius: 20px;
-}
-
-
 .image-Container {
     background-image: url('./treatyImages/KRworld1951V3.jpg');
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 100vw;
     height: 75vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3vh;
     box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.253);
     font-size: 2vh;
 

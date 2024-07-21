@@ -2,9 +2,9 @@
     position: fixed;
     scroll-behavior: smooth;
     background-color:rgb(84, 84, 84);
-    width: 15vw;
-    height: calc(100vh - 11vh); /* Adjust height to ensure scrollbar visibility */
-    top: 11.5vh;
+    width: 13em;
+    height: calc(100% - 11%); /* Adjust height to ensure scrollbar visibility */
+    top: 5em;
     color: white;
     overflow-y: scroll;
     box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.196);
@@ -22,7 +22,7 @@
 
 .sidebar_title{
     text-align: center;
-    margin-bottom: 3vh;
+    margin-bottom: 1em;
 }
 
 
@@ -34,11 +34,9 @@
 
 .sidebar_element{
     cursor: pointer;
-    padding-left: 1vw;
-    padding-right: 1vw;
     margin: 0;
-    padding: 2vh 1vw 3vh 1vw ;
-    height: 6.5vh;
+    height: 3em;
+    padding: 1.3em ;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.196), 0px -5px 5px rgba(0, 0, 0, 0.196);
 }
 

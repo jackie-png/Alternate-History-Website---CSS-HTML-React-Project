@@ -1,19 +1,19 @@
 .paragraph_inner_container{
-    margin-right: 2vw;
+    margin-right: 2em;
 }
 
 .next_button{
     background:rgba(30, 30, 30);
     color: white;
     font-family: RedditSans, Arial, Helvetica, sans-serif;
-    width: 15vw;
-    height: 8vh;
+    width: 9em;
+    height: 2.5em;
     border: none;
     border-radius: 20px;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     cursor: pointer;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 2em;
+    margin-right: 2em;
     box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.271);
     transition: box-shadow 0.10s, background 0.35s;
 }
@@ -28,21 +28,19 @@
 
 #paragraph_with_image{
     display:flex;
-    padding: 2vh;
-    margin: 3vh 5vw 3vh 5vw;
-    width: 70vw;
+    width: 70em;
 }
 
 
 
 .paragraph_container{
     margin: auto;
-    width: 50vw;
+    width: 50%;
     font-size: 1rem;
 }
 
 .section_container{
-    margin-left: 15vw;
+    margin-left: 0;
 }
 
 .year_header{
@@ -51,17 +49,19 @@
     color: white;
     font-size: 1.25rem;
     padding-top: 0.7em;
-    height: 10vh;
-    margin-bottom: 7vh;
+    width: 100vw;
+    height: 3.5em;
+    margin-bottom: 2.5em;
 }
 
 .event_header{
     text-align: center;
     font-size: 1.5rem;
-    margin-top: 3vh;
+    margin-top: 1em;
     padding: 0.75em 0;    
     background-color: rgba(64, 64, 64, 0.156);
     box-shadow: 0 1vh 5px rgba(0, 0, 0, 0.286);
+    width: 100vw;
 }
 
 #treaty_event{
@@ -74,8 +74,13 @@
 }
 
 #treaty_p{
-    text-indent: 0vw;
-    width: 30vw;
+    width: 28em;
 }
 
 
+@media screen and (max-width: 800px) {
+    .paragraph_container{
+        width: 70%;
+        font-size: 1rem;
+    }
+}
