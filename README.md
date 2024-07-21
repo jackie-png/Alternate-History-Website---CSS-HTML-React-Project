@@ -1,4 +1,4 @@
-# Alternate History Website
+# Alternate History Storytelling Website
 
 This is a website created to document a game of Hearts of Iron 4 in the mod Kaiserreich.
 
