@@ -1,17 +1,20 @@
 # Alternate History Storytelling Website
 
-This is a website created to document a game of Hearts of Iron 4 in the mod Kaiserreich.
+This is a website created to document a campaign of Hearts of Iron 4 in the mod Kaiserreich:Legacy of the Weltkreig.
 
-It's basically a historical retelling of their version of World War 2 but it is a completely different version of the war from or POV.
+It's basically a historical retelling of an alternative version of World War 2 but written by a historian in said alternate universe.
 
 ## There are 4 pages in the website covering what happened between
 - 1940 to 1944
 - 1944 to 1948
 - 1948 to 1951
-- Peace Treaties
+  
+### There is also a section on Peace Treaties to show the different changes in borders as the years went by.
 
 ## What was used to make this website
-This website was made with React but not a lot of actual Javascript was used other than using jsx to format React components. This project was mostly a project for me to learn how HTML and CSS works.
+This website was made with React but not a lot of actual Javascript was used other than using jsx to format React components and BrowserRouter to make multiple pages. 
+
+This project was mostly a project for me to learn how HTML and CSS works.
 
 ## Here are some images of the website
 
