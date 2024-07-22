@@ -26,6 +26,8 @@
     text-align: center;
     color: white;
     box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.196);
+    overflow: auto;
+    scrollbar-width: none;
 }
 
 
@@ -78,8 +80,35 @@
     width: 33%;
 }
 
-@media screen and (max-width:800px){
-    .header_h2{
-        font-size: 1em;
+@media screen and (max-width:1045px){
+    .header_h1{
+        font-size: 1.2rem;
     }
+    .header_h2{
+        font-size: 1.2rem;
+    }
+    .header_h2_link{
+        margin: 2em;
+    }
+}
+
+.sidebarButton{
+    background-image: url("../treatyImages/three-bars-icon-6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    min-width: 5em;
+    height: 4em;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 2em;
+}
+
+.sidebarButton:hover{
+    background-color: rgba(50, 50, 50, 0.81);
+}
+
+.sidebarButton:active{
+    background-color: rgb(14, 14, 14);
 }

@@ -8,6 +8,8 @@
     color: white;
     overflow-y: scroll;
     box-shadow: 10px 0px 5px rgba(0, 0, 0, 0.196);
+    scrollbar-width: none;
+    border-right:1px solid black;
 }
 
 
@@ -42,4 +44,15 @@
 
 #odd_element_index{
     background: rgb(112, 111, 111);
+}
+
+
+#sidebar_Out{
+    left: -100%;
+    transition: left 0.40s;
+}
+
+#sidebar_In{
+    left:0%;
+    transition: left 0.2s;
 }

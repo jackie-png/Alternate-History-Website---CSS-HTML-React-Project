@@ -11,6 +11,7 @@ html{
 body{
     scroll-behavior: smooth;
     background-color: rgb(215, 210, 193);
+    overflow-x: hidden;
 }
 
 @font-face {

@@ -1,8 +1,13 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 import headerStyle from "../CSS-files/Header.module.css"
+import { useState } from "react"
+import sidebarContext from "../App.jsx"
+import Sidebar from "./Sidebar.jsx"
 
-export default function Header(){
+export default function Header(props){
     let navigate = useNavigate();
+    let [sidebarOut, setSidebarOut] = useState(false);
+
 
     function handleClick(toWhere){
         switch (parseInt(toWhere)) {
@@ -43,7 +48,13 @@ export default function Header(){
         }
     }
     return (
-        <div id = {headerStyle.page_header} className={headerStyle.home_Header}>
+        <>
+            <div id = {headerStyle.page_header} className={headerStyle.home_Header}>
+                <div className={headerStyle.sidebarButton} onClick={() => {
+                    setSidebarOut(prev => {
+                        return !prev
+                    })
+                }}></div>                      
                 <div id = {headerStyle.page_header_h1} className={headerStyle.header_h1_Container} onClick={() => handleClick(1)}>
                     <h1 className={headerStyle.header_h1}>Rise of the German Hegemony</h1>
                 </div>
@@ -66,6 +77,8 @@ export default function Header(){
                         <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>
                     </div>                 
                 </div>
-            </div>            
+            </div>
+            <Sidebar menu= {props.sidebarMenu} barOut = {sidebarOut}/>
+        </>            
     );
 }

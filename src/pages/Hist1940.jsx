@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
 import articleStyle from "../CSS-files/Article.module.css"
 import homepageStyle from "../CSS-files/Homepage.module.css"
+import { useEffect, useState } from "react";
+
 
 export default function Hist1940(){
 
@@ -89,15 +91,14 @@ export default function Hist1940(){
         navigate("/1936-1940");
     }
 
-         //   <Sidebar menu= {sidebarArr} />
 
     return (
         <div>
-            <Header/>
+            <Header sidebarMenu = {sidebarArr}/>
             <div id="link-1940" className="image-Container">
                 <div id ={articleStyle.section_top_title} className="imageText-Centered">
                     <h1>1940 - 1944</h1>
-                </div>
+                </div>             
             </div>
 
             <div className={articleStyle.year_header}>

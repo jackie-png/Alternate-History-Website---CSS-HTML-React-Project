@@ -55,8 +55,7 @@ export default function Hist1944(){
     }
     return (
         <div>
-            <Header/>
-            <Sidebar menu= {sidebarArr} />
+            <Header sidebarMenu = {sidebarArr}/>
 
             <div className={articleStyle.section_container}>
                 <div id="link-1944" className="image-Container">

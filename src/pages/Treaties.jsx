@@ -46,8 +46,7 @@ export default function Treaties(){
     ];
     return(
         <div>
-            <Header/>
-            <Sidebar menu= {sidebarArr} />
+            <Header sidebarMenu = {sidebarArr}/>
             <div className={articleStyle.section_container}>
                 <div id="link-peace" className="image-Container">
                     <div id ={articleStyle.section_top_title} className="imageText-Centered">
