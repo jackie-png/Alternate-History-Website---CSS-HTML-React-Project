@@ -2,7 +2,7 @@
     position: fixed;
     scroll-behavior: smooth;
     background-color:rgb(84, 84, 84);
-    width: 13em;
+    width: 15em;
     height: calc(100% - 11%); /* Adjust height to ensure scrollbar visibility */
     top: 5em;
     color: white;

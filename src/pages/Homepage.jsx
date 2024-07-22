@@ -105,10 +105,8 @@ export default function Homepage(){
             </div>
 
             <div className={homepageStyle.link_container}>
-                <div id="link-1940" className={homepageStyle.link_img}>
-
-                </div>
-                <div>
+                <div id="link-1940" className={homepageStyle.link_img}></div>
+                <div className={homepageStyle.link_description_outer}>
                     <div className={homepageStyle.description_line}>
                     </div>
                     <div className={homepageStyle.link_Description}>
@@ -125,16 +123,13 @@ export default function Homepage(){
                         </div>
 
                     </div>   
-                    <div className={homepageStyle.description_line}>
-                    </div>                 
+                    <div className={homepageStyle.description_line}></div>                 
                 </div>
-
             </div>
             
             <div className={homepageStyle.link_container}>
-                <div>
-                    <div className={homepageStyle.description_line}>
-                    </div>
+                <div className={homepageStyle.link_description_outer}>
+                    <div className={homepageStyle.description_line}></div>
                     <div className={homepageStyle.link_Description}>
                         <h1>
                             1944 - 1948
@@ -151,17 +146,12 @@ export default function Homepage(){
                     <div className={homepageStyle.description_line}>
                     </div>                 
                 </div>                
-                <div id="link-1944" className={homepageStyle.link_img}>
-                </div>
-
-
+                <div id="link-1944" className={homepageStyle.link_img}></div>
             </div>
             
             <div className={homepageStyle.link_container}>
-                <div id="link-1948" className={homepageStyle.link_img}>
-
-                </div>
-                <div>
+                <div id="link-1948" className={homepageStyle.link_img}></div>
+                <div className={homepageStyle.link_description_outer}>
                     <div className={homepageStyle.description_line}>
                     </div>
                     <div className={homepageStyle.link_Description}>
@@ -177,17 +167,14 @@ export default function Homepage(){
                             </h2>
                         </div>
                     </div>   
-                    <div className={homepageStyle.description_line}>
-                        
-                    </div>                 
+                    <div className={homepageStyle.description_line}></div>                 
                 </div>
 
             </div>
             
             <div className={homepageStyle.link_container}>
-                <div>
-                    <div className={homepageStyle.description_line}>
-                    </div>
+                <div className={homepageStyle.link_description_outer}>
+                    <div className={homepageStyle.description_line}></div>
                     <div className={homepageStyle.link_Description}>
                         <h1>
                             Peace Treaties
@@ -201,9 +188,7 @@ export default function Homepage(){
                             </h2>
                         </div>
                     </div>   
-                    <div className={homepageStyle.description_line}>
-                        hi ter
-                    </div>                 
+                    <div className={homepageStyle.description_line}></div>                 
                 </div>                
                 <div id="link-peace" className={homepageStyle.link_img}>
                 </div>

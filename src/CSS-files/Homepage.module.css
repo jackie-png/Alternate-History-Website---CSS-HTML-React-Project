@@ -10,14 +10,15 @@
 .link_container{
     background: rgba(30, 30, 30);
     color: black;
-    width: 80em;
-    height: 25em;
+    width: 80%;
+    height: 30em;
     margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 2.5em;
@@ -27,7 +28,6 @@
 
 .link_Description{
     background-color: rgb(204, 204, 204);
-    width: 35em;
     height: 20em;
     padding: 2em;
 }
@@ -47,9 +47,13 @@
     background-image: url('./treatyImages/KRworld1951V3.jpg');
     background-size: cover;
     background-position: center;
-    width: 40em;
+    width: 45%;
     height: 25em;
     box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.411), 0px -10px 5px rgba(0, 0, 0, 0.411);
+}
+
+.link_description_outer{
+    width: 38em;
 }
 
 .link_h2{
@@ -75,7 +79,7 @@
     cursor: pointer;
     margin-left: 1em;
     border: 1px solid rgba(0, 0, 0, 0.523);
-    padding: 0.5em;
+    padding: 0.3em;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     transition: box-shadow 0.1s ;
 }
@@ -91,8 +95,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 2em;
-    padding-right: 2em;
+    width: 94vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 
@@ -100,4 +105,76 @@
     color: white;
     text-align: left;
     font-size: 1em;
+}
+@media screen and (max-width: 1400.98px){
+    .link_container{
+        height: 60em;
+        width: 40%;
+    }
+
+    .link_img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1350.98px){
+    .link_h2{
+        font-size: 0.85rem;
+    }
+    .homepage_description_link{
+        font-size: 0.85rem;
+    }
+    .link_Description{
+        padding: 1em ;
+    }
+}
+
+
+@media screen and (max-width: 1020.98px){
+    .link_h2{
+        font-size: 0.65rem ;
+    }
+    
+    .homepage_description_link{
+        font-size: 0.65rem ;
+    }
+    .link_Description{
+        padding: 0.5em ;
+    }
+    .footer{
+        font-size: 0.45rem
+    }
+    
+}
+
+@media screen and (max-width: 640.98px){
+    .link_h2{
+        font-size: 0.55rem ;
+    }
+    
+    .homepage_description_link{
+        font-size: 0.55rem ;
+    }
+    
+}
+
+@media screen and (max-width: 460.98px){
+    .link_h2{
+        font-size: 0.45rem ;
+    }
+    
+    .homepage_description_link{
+        font-size: 0.45rem ;
+    }
+    
+}
+
+@media screen and (max-width: 340.98px){
+    .link_h2{
+        font-size: 0.35rem ;
+    }
+    
+    .homepage_description_link{
+        font-size: 0.35rem ;
+    }
+    
 }
