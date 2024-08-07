@@ -41,11 +41,9 @@ export default function Homepage(){
         switch (parseInt(toWhere)) {
             case 1:
                 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-                navigate("/Homepage");
                 break;
             case 2:
-                window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-                navigate("/1936-1940");
+                window.scrollTo({ top: 850, left: 0, behavior: 'smooth' });
                 break;
             case 3:
                 window.scrollTo({ top: 1100, left: 0, behavior: 'smooth' });
@@ -71,6 +69,10 @@ export default function Homepage(){
                     <h1 className={headerStyle.header_h1}>Rise of the German Hegemony</h1>
                 </div>
                 <div className={headerStyle.header_h2_Container}>
+                    <div className={headerStyle.header_h2_link} onClick={() => handleHeaderClick(2)}>
+                        <h2 className={headerStyle.header_h2}>Prelude to 1940</h2>
+                        <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>
+                    </div>
                     <div className={headerStyle.header_h2_link} onClick={() => handleHeaderClick(3)}>
                         <h2 className={headerStyle.header_h2}>1940-1944</h2>
                         <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>
@@ -102,6 +104,30 @@ export default function Homepage(){
                 <div className={headerStyle.header_h1_Container}>
                     <h1 className={headerStyle.header_h1}>Timeline of Events</h1>
                 </div>
+            </div>
+
+            <div className={homepageStyle.link_container}>
+                <div className={homepageStyle.link_description_outer}>
+                    <div className={homepageStyle.description_line}>
+                    </div>
+                    <div className={homepageStyle.link_Description}>
+                        <h1>
+                            Prelude to 1940
+                        </h1>
+                        <h2 className={homepageStyle.link_h2}>
+                            The interwar period held great signifcance in the lead up to the Second Weltkreig. The now exiled British and French governments compete with the internationale for influence in many different regional wars, the US is gripped with political instability, the Japanese find themselves in a crossroad for the future of their democracy, and Germany faces the challenges Black Monday and in maintaining their positions after the First Weltkreig. This section covers the major events of each continent leading up to the outbreak of war in 1940.  
+                        </h2>
+                        <div className={homepageStyle.homepage_description_link}>
+                            <h2 onClick={()=>handleClick(2)}>
+                                Click to View Page
+                            </h2>
+                        </div>
+
+                    </div>   
+                    <div className={homepageStyle.description_line}></div>                 
+                </div>                
+                <div id="link-1940" className={homepageStyle.link_img}></div>
+                
             </div>
 
             <div className={homepageStyle.link_container}>

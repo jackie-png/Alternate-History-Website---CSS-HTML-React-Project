@@ -17,7 +17,6 @@ export default function Header(props){
                 break;
             case 2:
                 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-
                 navigate("/1936-1940");
                 break;
             case 3:
@@ -59,6 +58,10 @@ export default function Header(props){
                     <h1 className={headerStyle.header_h1}>Rise of the German Hegemony</h1>
                 </div>
                 <div className={headerStyle.header_h2_Container}>
+                    <div className={headerStyle.header_h2_link} onClick={() => handleClick(2)}>
+                        <h2 className={headerStyle.header_h2}>Prelude to 1940</h2>
+                        <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>
+                    </div>
                     <div className={headerStyle.header_h2_link} onClick={() => handleClick(3)}>
                         <h2 className={headerStyle.header_h2}>1940-1944</h2>
                         <div id= {headerStyle.header_underline} className={headerStyle.underline}></div>

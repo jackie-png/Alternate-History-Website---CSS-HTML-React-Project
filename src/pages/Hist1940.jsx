@@ -247,6 +247,7 @@ export default function Hist1940(){
                 <p>Ever since the conclusion of the Treaty of London, the Entante had been hostile to any attempt at normalization of relations with the Reichspakt. Although the Canadian/British Exiled government were unwilling to provoke the German Empire, public pressure from British Exiles, Canadians, and pressure from the French government forced the issue through, publicly announcing that the British and French military governments on their homelands were nothing but another foreign occupier and an illegal occupation. At first the German empire ignored these comments made as they’d believe that the Entante would never be so bold to act on their words. Yet on the 7th of November 1943, Canada declared war on the British Military Government with the French Republic following suit with their own declaration on the French Military Government. Some believe that this will be a quick war as by now the Germans has both one of the largest armies, navies, and air forces in the world. Yet nobody realized that this war was going to drag the German Empire through eight years of consistent war.</p>
             </div>    
             <div className={homepageStyle.footer}>
+                <button className={articleStyle.next_button} onClick={() => lastYear()}>Prelude to 1940</button>
                 <button className={articleStyle.next_button} onClick={() => nextYear()}>1944 - 1948</button>
             </div>
 
