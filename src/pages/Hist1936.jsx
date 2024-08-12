@@ -146,19 +146,112 @@ export default function Hist1936(){
                 <p>As the civil war came to a close, the US was left with economic and political wounds that would take over half a decade to heal, but the Federal Government that came out of the civil war and reconstruction era wouldn’t resemble anything like the Federal Government of 1937 and before. Since the rebel states have been defeated, many in Washington have demanded that MacArthur step down as president and return democracy to the nation, this was particularly vocal within the civilian sectors, but the military and MacArthur had other plans. During a speech on November 4th 1940, president MacArthur announced to the public that he would not be stepping down as president of the United States until the “wounds of the civil war were fully healed”. Many did not take this news kindly and riots across the sprang up in protest of MacArthur’s "tyranical" decision. yet they would all be quelled with relative ease as the military began to strengthened its grip on civilian life. Over the next 5-7 years of reconstruction, the US and its democratic ideals would be slowly but surely stripped away as it slipped into an era of military dictatorship. Replacing the American Democracy with an American Stratocracy helmed by MacArthur.</p>
             </div>
 
+            <h2 id="event-1" className={articleStyle.event_header}>
+                The Rest of America
+            </h2>
+            <div className={articleStyle.paragraph_container}>
+                <p>While the US was embroiled in its civil war, several developments also took place in Latin America. Mexico's recent revolution in March of 1937 lead to the country joining the Third Internationale, Cuba in May 1938 would agree to join the Reichspakt as they seek protection from the Mexican Syndicalists. Aside from those developments the Americas remained mostly unchanged in the years to come.</p>
+            </div>
 
             <div className={articleStyle.year_header}>
                 <h1>Europe</h1>
             </div>
+
+            <h2 id="event-1" className={articleStyle.event_header}>
+                Black Monday
+            </h2>
+
+            <h2 id="event-1" className={articleStyle.event_header}>
+                The Fourth Balkan War
+            </h2>
+            <h3>The Congress of Belgrade</h3>
+            <div className={articleStyle.paragraph_container}>
+                <p>Bulgaria came out of the First Welkreig with a massive expansion of its territory at the expense of its neighbours, thus the nation went into the interwar period in a precarious situation. Serbia would be the nation that would lead in the dismantling of Bulgaria’s new empire. On the 21st of October 1936, Serbia held the Congress of Belgrade, inviting Romania and Greece to discuss details relating to a possible war with Bulgaria to reverse the territorial changes of the First Weltkreig. Romania and Greece agreed with Serbia and in turn the nations formed the Belgrade Pact, to stand against Bulgaria. </p>
+                <p>For the next couple months, Serbia would prepare itself for a war against Bulgaria, preparations include, bringing back conscription, fortifying the border along the Morava River, and equipping partisan forces in the states of Nish and Macedonia. On the 6th February 1937, Serbian forces crossed the Morava River, starting the Fourth Balkan War, Greece and Romania would also declare war on Bulgaria a few hours later. </p>
+            </div>
+
+            <h3>Bulgaria's Hegemony Falls</h3>
+            <div className={articleStyle.paragraph_container}>
+                <p>Surrounded on three sides, the Bulgarian’s strategy was to stop Romania and Serbia from linking up as well as wiping the Greek garrisons of Thessalonica. The first few weeks of the war were in Bulgaria’s favour, the Belgrade pact had underestimated Bulgaria’s capabilities and were unable to advance into their respective fronts. Things would change when the Ottomans intervened in the war against Bulgaria, causing troops to be pulled from other fronts in order to stop the Ottomans from advancing in the south. Ottoman intervention gave the Belgrade pact a chance to advance into Bulgarian territory, allowing for Romania and Serbia to link up forces and Greece to push in as well. But the Ottomans wouldn’t be in the war for long, as the Bulgarians managed to secure a white peace with the Ottomans in exchange for handing over Eastern Thrace, focusing all Bulgarian troops back towards Serbia and their allies. </p>
+                <p>Seeing that reinforcements from the Ottoman front would be coming back, Romania made a daring offensive into central Bulgaria, pushing deep until they reached the outskirts of Plovdiv and Sofia. This proved to be crucial for the Belgrade pact’s war effort as now the Bulgarian forces are scrambling to secure this spearhead, allowing for Serbia to advance closer to Sofia. During the last week of May 1937, a joint offensive effort between Serbia and Romania fought with Bulgarian forces to try and secure Sofia, Bulgarian forces fought as hard as they can, but would lose the city on May 31st 1937. Soon after, Bulgarian diplomats called for a ceasefire and conceded to the Belgrade pact’s demands to cede all lands gained from the First Weltkreig back to Serbia and their allies. </p>
+            </div>
+
+            <h3>Aftermath of the the Fourth Balkan War</h3>
+            <div className={articleStyle.paragraph_container}>
+                <p>The Fourth Balkan War would prove to be the one of Bulgaria’s darkest moments as their brief moment of Balkan hegemony was crushed by a coalition of its rivals. The monarchy was later abolished for a republic and Bulgaria would later align itself with the Austrians when the Donau-Adribund was formed. As for Serbia, Greece, and Romania, the Belgrade pact would later be disbanded as its goals have been accomplished, Greece and Serbia would later join the Moscow pact when the Russian Republic formed it. Romania in the meanwhile remained out of the Russian’s alliance as they pursued a more nationalist ideology, hoping to one day reclaim Transylvania from the Danuban Federation. </p>
+            </div>
+
+            <h2 id="event-1" className={articleStyle.event_header}>
+                Spanish Civil War
+            </h2>
+
+            <h2 id="event-1" className={articleStyle.event_header}>
+                Austrian Federalization
+            </h2>
+
+            <h2 id="event-1" className={articleStyle.event_header}>
+                The Months leading into the War
+            </h2>
+
 
             
             <div className={articleStyle.year_header}>
                 <h1>Asia and the Pacific</h1>
             </div>
 
+            <h2 id="event-1" className={articleStyle.event_header}>
+                China's Warlord Era
+            </h2>
+            <h3>The Fall of the Qing Empire</h3>
+
+            <div className={articleStyle.paragraph_container}>
+                <p>From the outside, China seems to be united under Beijing and the Qing Empire, however the world would see what was under the curtain when Black Monday hit China, shattering Beijing’s fragile control over its states. </p>
+            </div>
+
+            <h3>The League of Eight Provinces Decends Into Chaos</h3>
+            <div className={articleStyle.paragraph_container}>
+                <p>Almost immediately after the collapse of Qing control, the League of Eight Provinces, a union of states situated upon China’s east coast, fractured further into smaller states. There were four states fighting to secure Eastern China for themselves. Located in the south was the MinGan Insurgency, a Socialist rebel group which drew its roots from the Republic of China and the Kuomintang, they were driven into hiding in the previous few years but due to the recent chaos in the league, they have gone out of hiding and risen up for one final struggle. In the north of the League lies the two warlords fighting each other to secure the league, the Nanjing Clique is the remnant of the league’s government, fighting to secure their control in hopes of stabilizing the region. The Anqing Clique is a rival warlord faction that hopes to re-establish the league in a different direction. To the north in Shandong province lies the Shandong clique, in the mists of chaos, it wishes to expand its influence to the south. </p>
+                <p>Despite the struggles between all the factions of the league, the Nanjing clique managed to come out on top due to German volunteers. The MinGan Insurgency was the first to surrender as German forces captured Longyan, forcing the rebels to retreat into the mountains once again. Anqing would be the next to fall after forces from the Nanjing and Shandong Cliques focused its efforts on capturing Anqing after it had accepted help from the Fengtian Clique and the Japanese. The Shandong Clique was the last to fall after being overwhelmed by a combined offensive with Nanjing and German forces. The Nanjing clique was able to stabilize the region and reform itself into the League of Southeast Provinces.</p>
+            </div>
+
+            <h3>The Qing Government and the Fengtian Government</h3>
+            <div className={articleStyle.paragraph_container}>
+                <p>Despite the collapse of the Qing Empire, the Qing government was able to secure its position in Beijing and in the lands of the Zhili Clique. From there the Qing government was able to recover from Black Monday and started to re-establish control over the rest of China, by 1939, many warlords in places such as Shanxi, Sichuan, and the League of Southeast Provinces had agreed to become subjects of the Qing government. One warlord that stood as a rival to the Qing were the Fengtien Clique, located in Manchuria. The Fengtian Clique is the last remnant of the Republic of China, claiming to be the last bastion of China’s democracy, the state has become an authoritarian state that stood opposed to the Qing government. The clique is also influenced by the Japanese Empire through treaties and investments. The Japanese hope that with enough influence in the Fengtian it could potentially be able to influence the rest of China, propelling Japan and its future ambitions into greater heights. </p>
+            </div>
+
+            <h3>The 2nd Sino-Japanese War</h3>
+            <div className={articleStyle.paragraph_container}>
+                <p>This rivalry between the Qing and the Fengtian would inevitably lead to the war breaking out between the two rival governments. Initially the war was initially limited between the Qing and Fengtian but then quickly spiralled out of control, the Japanese Empire intervened on the side of the Fengtian, helping to push back Qing forces back towards the initial border. In response to this intervention, the Qing Government issued a call to arms to all Chinese warlords to join the Qing in the struggle against Japanese Imperialism. The now labelled 2nd Sino-Japanese War would turn into a meat grinder as the war dragged on until 1948, mostly due to the outbreak of the Second Weltkrieg.</p>
+            </div>
+
+
+            <h2 id="event-1" className={articleStyle.event_header}>
+                The Indian War of Unification
+            </h2>
+
             <div className={articleStyle.year_header}>
                 <h1>Africa and the Middle East</h1>
             </div>
+
+            <h2 id="event-1" className={articleStyle.event_header}>
+                The War in the Desert
+            </h2>
+            <div className={articleStyle.paragraph_container}>
+                <p>The War in the Desert was a war fought between the Cairo Pact and the Ottoman Empire, it was a war to determine whether the Middle East would be united by Arab nationalism or united under an Ottoman Federation. During the months leading up to the war, the Kingdom of Egypt hosted the Third Arab Congress, initially a peaceful congress aimed at celebrating Arab culture, the congress has now become a Egypt’s way to cement itself as the nation that would liberate Arabs from oppression, a clear jab at the Ottoman’s rule over the Levant and Arab Peninsula. The next 11 months would see Egypt secretly fund resistance cells within Ottoman controlled Syria, Iraq, and other areas of the Middle East as well as arming potential allies in Yemen and Cyrenaica. On the 18th of December 1938, the Cairo Pact was formed between Egypt and Cyrenaica who had recently aligned with Egypt. 5 days later on the 23rd of December 1938, Egypt would conduct a secret operation that would cripple the Ottoman Navy, this was a step too far and the Ottomans declared war on Egypt on the same day, thus beginning the War in the Desert. </p>
+                <p>Palestine and the Suez Peninsula would be quickly occupied by the Ottomans as the Egyptians crossed the Suez Canal, on the 28th of December 1938, Egyptian backed Syrian rebels rise up and formally join the Cairo Pact, disrupting Ottoman supply lines in the lower Levant. As the war raged on into the new year, several countries and rebel groups would see their opportunity to destroy the Ottoman Empire, now reformed into the Sublime Ottoman Federations. The first to intervene was Yemen who joined in on the 3rd of January 1939. Iran also intervened in hopes of destroying the Ottoman Empire, lastly, Armenian rebels rising up in the north east near Yerevan on the 28th of January 1939.  The frontlines stay stagnant during January 1939, until the Sultanate of Ha’il betrays the Ottomans and join up with the Cairo Pact on the 20th February 1939, this caused the Ottomans to pull back from Yemen and Egypt to not risk troops becoming encircled. </p>
+            </div>
+
+            <h3>Ottoman Offensives Begins</h3>
+            <div className={articleStyle.paragraph_container}>
+                <p>After pulling back to a more defensible position in Syria, the Ottomans made a push into the Arabian Peninsula, hoping to quickly knock out Ha’il and refocus attention towards Egypt. Ha’il did not expect this thrust and the sultanate’s troops were quickly overwhelmed. To counteract the Ottoman offensive, the Egyptians launched their own offensive into Syria with varying degrees of success. Yet Ottoman forces pressed on, managing to force Ha’il to capitulate after capturing their capital on the 8th of May 1939.  The Ottomans now moved their troops forwards and pushed the Egyptians back, the Egyptians were unprepared for this counterattack and were unable to form a defensive line, thus they were pushed back behind the Suez Canal. At the same time, Iranian troops push towards Baghdad and succeed at capturing the city, but were unable to advance deeper into Iraq as Ottoman reinforcements shored up defences in Iraq and prepared to retake the Baghdad. </p>
+                <p>During July of 1939, two offensives took place in both the Iranian front and the Egyptian front. On the Iranian front, the Ottomans began their counter attack in Iraq, recapturing Baghdad on 15 July 1939 and managing to continue their offensive into Iranian territory, this breakthrough allowed the Ottomans to seize the valuable Iranian oil fields and had spread Iranian forces thin. However, it would take until August 1939 for the Ottomans to capture Tehran and force the Iranians to the negotiation table. At the same time at the Egyptian front, several offensives took place along the Suez Canal trying to pierce Egyptian defences to cross the canal. These were mostly ineffective as the canal proved to be quite challenging to cross. Thus a new plan was to take place, Ottoman troops launched a naval invasion of of the Nile Delta behind Egyptian lines, catching Egyptian troops off guard and gave an opportunity for Ottoman troops to cross the Suez. Once the frontlines were reorganized, Ottoman forces launched an offensive towards Cairo, capturing the city by October of 1939. With their captial gone, the Egyptians were on the backfoot, they quickly tried to fortify positions around Alexandria and down the Nile, but Ottoman troops at this point were unstoppable, capturing Alexandria and much of the Nile by November 1939. on the 13th of November 1939, the Cairo Pact would formally surrender, ending the War in the Desert. </p>
+            </div>
+
+            <h3>The Aftermath of the War In The Desert</h3>
+            <div className={articleStyle.paragraph_container}>
+                <p>The Ottomans decided to annex and integrate the the Cairo Pact into the Ottoman Federation. Iran in the meanwhile would be reorganized into an Ottoman puppet state, with its western provinces ceded to the Ottomans. The Ottomans would later align itself with the Germans, formally joining the Reichspakt and joining the Second Weltkrieg agaisnt the Internationale and the Moscow Pact. The lessons learned in the War in the Desert would prove to be valuable to the Ottomans, performing exceptionally well against Russia in desert regions such as the Central Asia.</p>
+            </div>
+
 
             <div className={homepageStyle.footer}>
                 <button className={articleStyle.next_button} onClick={() => {
